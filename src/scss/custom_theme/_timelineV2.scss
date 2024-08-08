@@ -1,0 +1,11 @@
+.timeline {
+  position: relative;
+  background-color: aqua;
+
+  &::after, &::before  {
+    content: '';
+    position: absolute;
+  }
+
+
+}
